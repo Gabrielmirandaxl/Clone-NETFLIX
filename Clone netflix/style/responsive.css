@@ -1,0 +1,24 @@
+@media (min-width: 0px) and (max-width: 460px){
+    .header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 80px;
+    }
+
+    .header .nav-links .list-links{
+        margin:0px 0px 0px 30px;
+    }
+
+    .capa-filme .container{
+        width: 80%;
+        margin: 10px;
+       
+    }
+
+    .capa-filme .container .button{
+        margin: 5px;
+    }
+
+   
+}

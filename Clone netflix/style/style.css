@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --vermelho: #c51010;
+  --preto: #141414;
+}
+
+body{
+  background-color: var(--preto);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.header h1{
+  color: var(--vermelho);
+  margin: 0px 0px 0px 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.header .nav-links .list-links{
+  display: flex;
+  margin: 0px 100px 0px 0px;
+  list-style: none;
+}
+
+.header .nav-links .list-links li{
+  margin: 0px 20px 0px 0px ;
+}
+
+
+.header .nav-links .list-links li a{
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.4s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.header .nav-links .list-links li a:hover{
+  transition: 0.4s;
+  color: #ffffff88;
+}
+
+.capa-filme{
+  background-image: url(img/capa-house.jpg);
+  background-size: cover;
+  height: 470px;
+  display: flex;
+  align-items: center;
+}
+
+.capa-filme .container{
+  margin: 0px 0px 0px 40px ;
+  width: 40%;
+}
+
+.capa-filme .container .title-filme{
+  color: #ffffff;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.4em;
+}
+
+.capa-filme .container .desc{
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0px 0px 20px 0px;
+}
+
+.capa-filme .container .button{
+  padding: 10px;
+  margin: 0px 7px 0px 0px;
+  background-color: #000000a6;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.button i{
+  margin: 0px 5px 0px 0px;
+}
+
+
+.capa-filme .container .button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.4s;
+}
